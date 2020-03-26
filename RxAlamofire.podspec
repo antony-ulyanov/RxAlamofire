@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name = "RxAlamofire"
+  s.name = "RxAlamofireWithAlamofire5.0"
 
   s.version = "5.0.0"
   s.license = "MIT"
   s.summary = "RxSwift wrapper around the elegant HTTP networking in Swift Alamofire"
-  s.homepage = "https://github.com/RxSwiftCommunity/RxAlamofire"
+  s.homepage = "https://github.com/antony-ulyanov/RxAlamofire"
   s.authors = { "RxSwift Community" => "community@rxswift.org" }
-  s.source = { :git => "https://github.com/RxSwiftCommunity/RxAlamofire.git", :tag => s.version }
+  s.source = { :git => "https://github.com/antony-ulyanov/RxAlamofire.git", :tag => s.version }
   s.swift_version = "5.0"
 
   s.ios.deployment_target = "10.0"
